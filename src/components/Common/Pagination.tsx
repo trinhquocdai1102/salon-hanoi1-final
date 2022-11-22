@@ -2,10 +2,10 @@ import { FC, useEffect, useState } from 'react';
 import ReactPaginate from 'react-paginate';
 import { BsChevronDown } from 'react-icons/bs';
 import GridLayout from '../layout/GridLayout';
-import CarInfo from '../../containers/Search/CarInfo';
 import { ROUTES } from '../routes/routes';
 import Link from 'next/link';
 import { Img } from 'react-image';
+import CarInfo from '../../containers/Search/CarInfo';
 
 interface PaginationProps {
     data: any;

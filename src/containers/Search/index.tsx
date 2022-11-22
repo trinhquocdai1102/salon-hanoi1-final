@@ -225,7 +225,7 @@ const SearchComponent = () => {
                     </div>
                 </div>
                 <div className='mt-[20px]'>
-                    <Pagination data={cars} />
+                    <Pagination data={fake} />
                 </div>
             </div>
         </div>
