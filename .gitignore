@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# dev deploy
+/deploy-surge.sh
+
 # testing
 /coverage
 
